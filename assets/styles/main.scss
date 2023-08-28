@@ -1,0 +1,51 @@
+*{
+    magin:0;
+    paddig:0;
+  }
+  $color-primary:#007bff;
+  $color-secondary:#6c757d;
+  $color-success:#28a745;
+  $color-white:#fff;
+  $width-button: 100px;
+  
+  nav{
+    margin:50px;
+    background-color:$color-success;
+    &::after{
+    clear:both;
+    content:"";
+    display:block;
+  }
+    }
+  
+  .navigation{
+    
+    list-style:none;
+    float:left;
+    li{
+    display: inline-block;
+    margin-left:20px;
+       &:first-child{
+      margin:0;
+    }
+      a{
+        text-decoration:none;
+        text-transform: uppercase;
+        color: $color-white;
+      }
+      }
+   
+  }
+  .navigation-right{
+    float:right;
+  }
+  .btn-login, .btn-signup{
+    padding:10px;
+    display: inline-block;
+    width: $width-button;
+    border-radius:100px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:$color-white;
+  }
+  

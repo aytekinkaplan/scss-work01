@@ -1,1 +1,45 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  magin: 0;
+  paddig: 0;
+}
+
+nav {
+  margin: 50px;
+  background-color: #28a745;
+}
+nav::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.navigation li:first-child {
+  margin: 0;
+}
+.navigation li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navigation-right {
+  float: right;
+}
+
+.btn-login, .btn-signup {
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
