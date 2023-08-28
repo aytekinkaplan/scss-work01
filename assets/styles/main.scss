@@ -1,6 +1,6 @@
 *{
-    magin:0;
-    paddig:0;
+    margin:0;
+    padding:0;
   }
   $color-primary:#007bff;
   $color-secondary:#6c757d;
@@ -47,5 +47,14 @@
     text-decoration:none;
     text-transform:uppercase;
     color:$color-white;
+    text-align: center;
+  }
+  .btn-login,.btn-signup{
+    &:link{
+        background-color: $color-primary;
+    }
+    &:hover{
+       background-color: darken($color-primary, 20%); 
+    }
   }
   

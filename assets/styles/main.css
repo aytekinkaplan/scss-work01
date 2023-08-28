@@ -1,6 +1,6 @@
 * {
-  magin: 0;
-  paddig: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -42,4 +42,12 @@ nav::after {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  text-align: center;
+}
+
+.btn-login:link, .btn-signup:link {
+  background-color: #007bff;
+}
+.btn-login:hover, .btn-signup:hover {
+  background-color: #004a99;
 }/*# sourceMappingURL=main.css.map */
